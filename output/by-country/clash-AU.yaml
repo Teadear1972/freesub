@@ -13,6 +13,13 @@ proxies:
   alterId: 0
   cipher: auto
 - name: 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
+  server: 82.38.31.184
+  port: 8080
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
   server: 103.75.119.126
   port: 2087
   udp: true
@@ -21,12 +28,12 @@ proxies:
   network: ws
   ws-opts:
     path: /7586c69d3dc9
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
   server: au1.gsafevpnapi.com
   port: 20270
   udp: true
   type: vless
-  uuid: bd0b6458-917b-4b84-9c21-66b8699f4795
+  uuid: 7647b321-4bfe-43f3-b21f-926c5de8f9b6
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -42,6 +49,7 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -50,5 +58,6 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 01 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 02 - xiaohe
   - 🇦🇺 澳大利亚 (Australia) 03 - xiaohe
+  - 🇦🇺 澳大利亚 (Australia) 04 - xiaohe
 rules:
 - MATCH,PROXIES
