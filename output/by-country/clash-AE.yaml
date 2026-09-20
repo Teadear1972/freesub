@@ -5,18 +5,20 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 31.56.189.27
-  port: 2087
+  server: 104.17.169.13
+  port: 2053
   udp: true
   type: vless
-  uuid: df9f5aca-eda0-428f-a752-e53866153d12
+  uuid: a22bff60-a40a-4250-bde2-4c660e363b47
   tls: true
-  servername: srv-21bac9.vless.monster
+  servername: inDeX.HaRMONiCA01.WORkers.DeV
   skip-cert-verify: false
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: freegrpc
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /axch1mttbxz2k55y01
+    headers:
+      Host: inDeX.HaRMONiCA01.WORkers.DeV
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaohe
   server: 130.49.161.70
   port: 443
@@ -28,7 +30,7 @@ proxies:
   obfs: salamander
   obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaohe
-  server: 85.204.107.181
+  server: 85.204.107.178
   port: 8080
   udp: true
   type: hysteria2
